@@ -26,7 +26,7 @@
 </div>
 
     
-	<main>
+<main>
 		<h2>Índice</h2>
 		<ul>
 			<li><a href="#pre-requisitos">Pré-requisitos</a></li>
