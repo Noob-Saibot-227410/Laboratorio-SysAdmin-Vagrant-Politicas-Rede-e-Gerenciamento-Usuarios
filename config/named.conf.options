@@ -1,0 +1,15 @@
+# Configuração de opções gerais do servidor DNS
+
+options {
+  directory "/var/cache/bind";
+  dnssec-validation auto;
+
+  # Lista de servidores raiz
+  hint "/etc/bind/db.root";
+
+  # Configura o intervalo de tempo para cache de registros
+  max-cache-ttl 600;
+
+  # Configura o intervalo de tempo para revalidação de registros
+  max-ncache-ttl 600;
+};

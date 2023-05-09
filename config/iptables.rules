@@ -1,0 +1,7 @@
+# Configuração do firewall
+
+# Limpa todas as regras atuais
+iptables -F
+
+# Bloqueia tráfego de entrada e saída por padrão
+iptables -P INPUT
